@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>jCharacterfall - A small, addictive jQuery game</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="wrapper">
+	<div class="tittle">
+	<h1>В поисках смысла жизни Сани <br>(alpha 0.2)</h1>
+	</div>
+	<div id="jcharacterfall">
+		<div id="gamecontainer">
+			<div id="waterfall"></div>
+			<div id="gamestats">
+				<div id="gamestart">
+					<p><img src="images/start.png" alt="" /></p>
+					<p>Почувсвуй себя в теле алкаша</p>
+					<p class="extrapadding"><em>Выбор сложности:</em></p>
+					<div id="diffeasy" onclick="soundClick()">
+						<p><img src="images/easy.png" alt="Easy" /></p>
+						<p>Саня</p>
+					</div>
+					<div id="diffhard">
+						<p><img src="images/hard.png" alt="Easy" /></p>
+						<p>Дядя Андрей</p>
+					</div>
+				</div>
+				<div class="stats">
+					<p><img src="images/saved.png" alt="" /></p>
+					<p class="counter" id="pointstats"></p>
+					<p>Банок<br/>выпито</p>
+				</div>
+				<div class="stats">
+					<p><img src='images/lives.png' alt="" /></p>
+					<p class="counter" id="lifestats"></p>
+					<p>Работающие органы</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<br class="break"/>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
