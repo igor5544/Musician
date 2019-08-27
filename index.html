@@ -1,51 +1,445 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-<title>jCharacterfall - A small, addictive jQuery game</title>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=740px, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-<div id="wrapper">
-	<div class="tittle">
-	<h1>В поисках смысла жизни Сани <br>(alpha 0.2)</h1>
-	</div>
-	<div id="jcharacterfall">
-		<div id="gamecontainer">
-			<div id="waterfall"></div>
-			<div id="gamestats">
-				<div id="gamestart">
-					<p><img src="images/start.png" alt="" /></p>
-					<p>Почувсвуй себя в теле алкаша</p>
-					<p class="extrapadding"><em>Выбор сложности:</em></p>
-					<div id="diffeasy" onclick="soundClick()">
-						<p><img src="images/easy.png" alt="Easy" /></p>
-						<p>Саня</p>
-					</div>
-					<div id="diffhard">
-						<p><img src="images/hard.png" alt="Easy" /></p>
-						<p>Дядя Андрей</p>
-					</div>
-				</div>
-				<div class="stats">
-					<p><img src="images/saved.png" alt="" /></p>
-					<p class="counter" id="pointstats"></p>
-					<p>Банок<br/>выпито</p>
-				</div>
-				<div class="stats">
-					<p><img src='images/lives.png' alt="" /></p>
-					<p class="counter" id="lifestats"></p>
-					<p>Работающие органы</p>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	<br class="break"/>
-<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+  <header class="ABOUT" id="ABOUT">
+    <div class="header__wrapper">
+      <nav class="header__menu">
+        <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+        <label for="checkbox" class="mobile-menu__btn">
+          <div class="mobile-menu__icon"></div>
+        </label>
+        <div class="mobile-menu__container">
+          <div class="container">
+            <ul class="mobile-menu__list">
+              <li class="menuItem active"><a href="#ABOUT">ABOUT</a></li>
+              <li class="menuItem"><a href="#DISCOGRAPHY">DISCOGRAPHY</a></li>
+              <li class="menuItem"><a href="#Concert">Concert tours</a></li>
+              <li class="menuItem"><a href="#latter">latter compositions</a></li>
+              <li class="menuItem"><a href="#new">new tracks</a></li>
+              <li class="menuItem"><a href="#Upcoming">Upcoming Events</a></li>
+              <li class="menuItem"><a href="#History">History</a></li>
+              <li class="menuItem"><a href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+   <main>
+    <section class="discogrephy" id="DISCOGRAPHY">
+      <div class="container">
+        <div class="discogrephy__inner">
+          <div class="discogrephy__title main__title">
+            DISCOGRAPHY
+          </div>
+          <div class="discogrephy__text main__title-text">
+            September 4 world heard Night Visions, the first full album. He reached the 2 position in the chart
+            Billboard 200. The
+            single «It's Time» took 22 th place in the Billboard Hot 100, 4th in the Billboard Alternative and Billboard
+            Rock, and
+            now went platinum.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discogrephy-items">
+      <div class="container">
+        <div class="discogrephy-items__item">
+          <d<div class="discogrephy-items__inner">
+            <div class="discogrephy-items__left-top">
+              <div class="discogrephy-items__left-sup third date">2010</div>
+            </div>
+            <div class="discogrephy-items__right">
+              <div class="discogrephy-items__right-title title">Hell and Silence is an EP by Las Vegas rock group</div>
+            </div>
+            <div class="discogrephy-items__left-bottom">
+              <div class="discogrephy-items__left-bottom-title date-text">Hell and Silence</div>
+            </div>
+            <div class="discogrephy-items__bottom">
+              <div class="discogrephy-items__right-text title-text">Hell and Silence is an EP by Las Vegas rock group ,
+                released in
+                March 2010 in the United States. It was recorded at
+                Battle Born Studios. All songs were written by Imagine Dragons and self-produced. The EP was in part
+                mixed by Grammy
+                nominated engineer Mark Needham.
+                To promote the album the band performed five shows at SXSW 2010 including at the BMI Official
+                Showcase.While at SXSW
+                they were endorsed by Blue Microphones. They also toured the western United States with Nico Vega and
+                Saint Motel. They
+                also performed at Bite of Las Vegas Festival 2010, New Noise Music Festival, Neon Reverb Festival, and
+                Fork Fest.</div>
+              <input class="discogrephy-items__right-button first" type="button" value="PLAY">
+            </div>
+        </div>
+        <div class="discogrephy-items__item">
+          <div class="discogrephy-items__inner">
+            <div class="discogrephy-items__left-top">
+              <div class="discogrephy-items__left-sup date">2012</div>
+            </div>
+            <div class="discogrephy-items__right">
+              <div class="discogrephy-items__right-title title">Night Visions is the debut studio album by American rock
+                band
+              </div>
+            </div>
+            <div class="discogrephy-items__left-bottom">
+              <div class="discogrephy-items__left-bottom-title date-text">Night Visions</div>
+            </div>
+            <div class="discogrephy-items__bottom">
+              <div class="discogrephy-items__right-text title-text">It was released on September 4, 2012 through
+                Interscope
+                Records. The extended track was released on February 12, 2013,
+                adding three more songs. Recorded between 2010 and 2012, the album was primarily produced by the band
+                themselves, as
+                well as English hip-hop producer Alex da Kid and Brandon Darner from the American indie rock group The
+                Envy Corps. It
+                was mastered by Joe LaPorta. According to frontman Dan Reynolds, the album took three years to finish
+                ...</div>
+              <input class="discogrephy-items__right-button second" type="button" value="PLAY">
+            </div>
+          </div>
+        </div>
+        <div class="discogrephy-items__item">
+          <div class="discogrephy-items__inner">
+            <div class="discogrephy-items__left-top">
+              <div class="discogrephy-items__left-sup third date">2015</div>
+            </div>
+            <div class="discogrephy-items__right">
+              <div class="discogrephy-items__right-title title">The album was recorded during 2014<br>
+                at the band's home studio in Las Vegas, Nevada</div>
+            </div>
+            <div class="discogrephy-items__left-bottom">
+              <div class="discogrephy-items__left-bottom-title date-text">Smoke + Mirrors</div>
+            </div>
+            <div class="discogrephy-items__bottom">
+              <div class="discogrephy-items__right-text title-text">Self-produced by members of the band along with
+                English hip-hop
+                producer
+                Alexander Grant, known by his moniker Alex da
+                Kid, the album was released by Interscope Records and Grant's KIDinaKORNER label on February 17, 2015,
+                in the United
+                States.</div>
+              <input class="discogrephy-items__right-button third" type="button" value="PLAY">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discogrephy-items__bg"></div>
+    </section>
+    <section class="concert" id="Concert">
+      <div class="container">
+        <div class="concert__top-title main__title">Concert tours</div>
+        <div class="concert__top-text  main__title-text">Before the release of Night Visions, Imagine Dragons made
+          appearances on American radio and television to promote their
+          extended play, Continued Silence and debut single It's Time. The band performed "It's Time" on the July 16,
+          2012 airing
+          of NBC late-night talk show The Tonight Show with Jay Leno"</div>
+      </div>
+      <div class="concert__wrapper">
+        <div class="container">
+          <div class="concert__inner">
+            <div class="concert__title-top">
+              <div class="concert__title-sup date">03.08.2015</div>
+              <div class="concert__title-title date-text">Smoke + Mirrors Tour</div>
+            </div>
+            <div class="concert__title title">2015–present</div>
+            <div class="concert__text title-text">At Lollapalooza in Sao Paulo, Brazil, the last date on the Into the
+              Night Tour, the band announced a rest, and
+              complemented saying, "This is our last show for a while, and had no better place to end this tour".[51]
+              The conclusion
+              of the Into the Night Tour signaled the end of the Night Visions album cycle. Lead singer Dan Reynolds
+              joked about the
+              end of the Night Visions cycle, saying that "We're always writing on the road, [so] that second album will
+              come, unless
+              we die.</div>
+            <a class="concert__buton popup-modal main-btn" href="#modal">Buy online</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+   <section class="latter" id="latter">
+      <div class="container">
+        <div class="latter__top-title main__title">latter compositions</div>
+        <div class="latter__top-text main__title-text">"It's Time" was released as the lead single from Continued
+          Silence and It's Time, both
+          extended plays preceding Night Visions' release</div>
+        <div class="latter__inner">
+          <div class="latter__item">
+            <div class="latter__left-box">
+              <div class="latter__title-sup date">03.04.2015</div>
+              <div class="latter__title-title date-text">indian sammer</div>
+              <div class="latter__title title">Sam Feldt ft. Kimberly Anne - Show Me Love (EDX's Indian Summer Remix)
+              </div>
+              <div class="latter__text title-text">"Radioactive" is a song recorded by American rock band Imagine
+                Dragons for their major-label debut EP Continued Silence
+                and later on their debut studio album, Night Visions (2012), as the opening track. "Radioactive" was
+              </div>
+              <div class="latter__info">
+                <a class="latter__btn main-btn" href="">Visit the iTunes</a>
+                <ul>
+                  <li><img src="images/Audio-ico.png" alt=""><span>182,364</span></li>
+                  <li><img src="images/Heart-ico.png" alt="">10 k</li>
+                  <li><img src="images/Options-ico.png" alt="">3 k</li>
+                  <li><img src="images/comment-ico.png" alt="">96</li>
+                </ul>
+              </div>
+            </div>
+            <iframe class="latter__right-box" src="https://www.youtube.com/embed/rCqQGgM0Y5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="latter__item">
+            <iframe class="latter__right-box second" src="https://www.youtube.com/embed/yfmrhy0aLKs" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="latter__left-box second">
+              <div class="latter__title-sup date">20.07.2015</div>
+              <div class="latter__title-title date-text">indian sammer Remix</div>
+              <div class="latter__title title">Sam Feldt - Show Me Love (EDX's Indian Summer Remix)
+              </div>
+              <div class="latter__text title-text">Amsterdam's Sam Feldt earned attention in Europe and then worldwide
+                for his melodic house remixes, mixtapes, and
+                collaborations including 2014's "Bloesem" with De Hofnar and "Hot Skin" with Kav Verhouzer on...
+              </div>
+              <div class="latter__info">
+                <a class="latter__btn main-btn" href="">Visit the iTunes</a>
+                <ul>
+                  <li><img src="images/Audio-ico.png" alt=""><span>12,289</span></li>
+                  <li><img src="images/Heart-ico.png" alt="">8 k</li>
+                  <li><img src="images/Options-ico.png" alt="">1 k</li>
+                  <li><img src="images/comment-ico.png" alt="">23</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="latter__item">
+            <div class="latter__left-box">
+              <div class="latter__title-sup date">03.04.2015</div>
+              <div class="latter__title-title date-text">chill nation</div>
+              <div class="latter__title title">James Bay - Let It Go (Bearson Remix)
+              </div>
+              <div class="latter__text title-text">A soulful singer/songwriter from a small English town with a penchant
+                for crafting moving and evocative folk-pop
+                confections in the vein of Ed Sheeran, Foy Vance, and Ben Howard, James Bay hails from the North
+                Hertf...
+              </div>
+              <div class="latter__info">
+                <a class="latter__btn main-btn" href="">Visit the iTunes</a>
+                <ul>
+                  <li><img src="images/Audio-ico.png" alt=""><span>182,364</span></li>
+                  <li><img src="images/Heart-ico.png" alt="">10 k</li>
+                  <li><img src="images/Options-ico.png" alt="">3 k</li>
+                  <li><img src="images/comment-ico.png" alt="">96</li>
+                </ul>
+              </div>
+            </div>
+            <iframe class="latter__right-box" src="https://www.youtube.com/embed/WXz_OhYDrFA" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider" id="new">
+      <div class="slider__wrapper">
+          <div class="slider-inner">
+            
+            <div class="slider__item">
+              <div class="slider__title">In 2008, lead singer Dan Reynolds met<br>
+                drummer Andrew Tolman at Brigham Young University where they were both students</div>
+              <div class="slider__text  title-text">Tolman recruited longtime high school friend Daniel Wayne "Wing"
+                Sermon, who had graduated from Berklee College of
+                Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+              <div class="slider__sub">- Early years (2008–10)</div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__title">In 2008, lead singer Dan Reynolds met<br>
+                drummer Andrew Tolman at Brigham Young University where they were both students</div>
+              <div class="slider__text  title-text">Tolman recruited longtime high school friend Daniel Wayne "Wing"
+                Sermon, who had graduated from Berklee College of
+                Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+              <div class="slider__sub">- Early years (2008–10)</div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__title">In 2008, lead singer Dan Reynolds met<br>
+                drummer Andrew Tolman at Brigham Young University where they were both students</div>
+              <div class="slider__text  title-text">Tolman recruited longtime high school friend Daniel Wayne "Wing"
+                Sermon, who had graduated from Berklee College of
+                Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+              <div class="slider__sub">- Early years (2008–10)</div>
+            </div>
+          </div>   
+      </div>
+    </section>
+    <section class="events">
+      <div class="container">
+        <div class="events__inner">
+          <div class="events__item first">
+            <div class="events__title-sup date">03.04.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">James Bay - Let It Go (Bearson Remix)</div>
+            <div class="events__text title-text first">A soulful singer/songwriter from a small English town with a penchant for crafting moving and evocative folk-pop
+            confections in the vein of Ed Sheeran, Foy Vance, and Ben Howard, James Bay hails from the North Hertf shire market town
+            of Hitchin. Bay honed his skills regionally, eventually landing high-exposure support slots with Tom Odell, John Newman,
+            and Kodaline before inking a record deal with Republic/Universal in 2012.</div>
+          </div>
+          <div class="events__item second">
+            <div class="events__title-sup date">01.03.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">Smoke and Mirrors</div>
+            <div class="events__text title-text second">Hard Rock Cafe teamed with the band, granting them the first ever full access to take control of Hard Rock Cafe's
+            internal video system (more than 20,000 screens at all 151 locations worldwide) on February 17, 2014.[37] Also,
+            autographed t-shirts will be hidden throughout the Hard Rock Cafe shops supporting the Tyler Robinson Foundation,
+            benefiting the families of children with cancer.[37]</div>
+          </div>
+          <div class="events__item third">
+            <div class="events__title-sup date">04.04.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">It Comes Back to You</div>
+            <div class="events__text title-text third">In 2015 a world tour, entitled the Smoke and Mirrors Tour is scheduled in promotion of the world-wide release of Smoke
+            and Mirrors.</div>
+          </div>
+          <div class="events__item fourth">
+            <div class="events__title-sup date">01.07.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">Let It Go (Bearson Remix)</div>
+            <div class="events__text title-text fourth">A soulful singer/songwriter from a small English town with a penchant for crafting moving and evocative folk-pop
+            confections in the vein of Ed Sheeran, Foy Vance, and Ben Howard, James Bay hails from the North Hertf shire market town
+            of Hitchin. Bay honed his skills regionally, eventually landing high-exposure support slots with Tom Odell, John Newman,
+            and Kodaline before inking a record deal with Republic/Universal in 2012.</div>
+          </div>
+          <div class="events__item fifth">
+            <div class="events__title-sup date">02.11.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">I Don't Mind</div>  
+            <div class="events__text title-text fifth">Hell and Silence is an EP by Las Vegas rock group Imagine Dragons, released in March 2010 in the United States. It was
+            recorded at Battle Born Studios.[1] All songs were written by Imagine Dragons and self-produced. The EP was in part
+            mixed by Grammy nominated engineer Mark Needham.
+            
+            To promote the album the band performed five shows at SXSW 2010 including at the BMI Official Showcase.[2][3] While at
+            SXSW they were endorsed by Blue Microphones. They also toured the western United States with Nico Vega and Saint Motel.
+            They also performed at Bite of Las Vegas Festival 2010, New Noise Music Festival, Neon Reverb Festival, and Fork Fest.</div>
+          </div>
+          <div class="events__item sixth">
+            <div class="events__title-sup date">06.09.2015</div>
+            <div class="events__title-title date-text">chill nation</div>
+            <div class="events__title title">Smoke + Mirrors</div>
+            <div class="events__text title-text sixth">A soulful singer/songwriter from a small English town with a penchant for crafting moving and evocative folk-pop
+            confections in the vein of Ed Sheeran, Foy Vance, and Ben Howard, James Bay hails from the North Hertf shire market town
+            of Hitchin. Bay honed his skills regionally, eventually landing high-exposure support slots with Tom Odell, John Newman,
+            and Kodaline before inking a record deal with Republic/Universal in 2012.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="upcoming" id="Upcoming">
+      <div class="upcoming__wrapper">
+        <div class="contiainer">
+          <div class="upcoming__inner">
+            <div class="upcoming__title main__title">Upcoming Events</div>
+            <div class="upcoming__title-text">Smoke + Mirrors Tour</div>
+            <div class="upcoming__text first">2-2-15 Hokukoryokuchi, Konohana Ward,
+            554-0042 Osaka Prefecture Osaka</div>
+            <div class="upcoming__border-sup"></div>
+            <div class="upcoming__date">01.04.2015</div>
+            <div class="upcoming__border-sub"></div>
+            <div class="upcoming__title-text">Smoke + Mirrors Tour</div>
+            <div class="upcoming__text">When the last-minute request is for a focus group, it’s usually a sign that the
+            request originated in Marketing. When Web sites are being designed, the folks in
+            Marketing often feel like they don’t have much clout. Even though they’re the
+            ones who spend the most time trying to figure out who the site’s audience is and
+            what they want, the designers and developers are the ones with most of the</div>
+            <div class="upcoming__border-sup"></div>
+            <div class="upcoming__date">27.05.2015</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="history" id="History">
+      <div class="container">
+      <div class="history__title main__title">History</div>
+      <div class="history__text main__title-text">In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where they were both
+      students.Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College
+      of Music</div>
+      </div>
+      <div class="history__slider">
+        <div class="history__slider-item">
+          <div class="history__item-title">mar 16</div>
+          <div class="history__item-text">Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+        </div>
+        <div class="history__slider-item">
+          <div class="history__item-title">apr 11</div>
+          <div class="history__item-text">Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+        </div>
+        <div class="history__slider-item">
+          <div class="history__item-title">may 09</div>
+          <div class="history__item-text">Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+        </div>
+        <div class="history__slider-item">
+          <div class="history__item-title">jun 06</div>
+          <div class="history__item-text">Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+        </div>
+        <div class="history__slider-item">
+          <div class="history__item-title">jul 25</div>
+          <div class="history__item-text">Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</div>
+        </div>
+      </div>
+      <div class="history__bg"></div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact__wrapper">
+        <div class="container">
+          <div class="contact__inner">
+            <div class="contact__title main__title">contact</div>
+            <div class="contact__text main__title-text">Canada Island, Division No. 23, Unorganized, MB, Canada</div>
+            <div class="contact__phone"><a href="tel:+17782885180">Tel. +1(778) 288 5180</a></div>
+          </div>
+          <div class="contact__form">
+            <form>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="E-mail">
+              <input type="text" placeholder="Massage">
+              <input type="submit" value="SEND">
+            </form>
+            <div class="contact__social">
+              <a href="#"><img src="images/facebook-ico.png" alt="facebook"></a>
+              <a href="#"><img src="images/instagram-ico.png" alt="instagram"></a>
+              <a href="#"><img src="images/twitter-ico.png" alt="twitter"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <div id="modal" class="mfp-hide white-popup-block">
+    <div class="close popup-modal-dismiss"></div>
+    <h2>2015–present</h2>
+    <form>
+      <input type="text" placeholder="Your name" autofocus>
+      <input type="text" placeholder="Your e-mail"">
+      <input type="submit" value="Buy">
+      <input class="popup-modal-dismiss" type="button" value="Back">
+    </form>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/stickUp.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
