@@ -32,6 +32,9 @@ $(function () {
         focusOnSelect: true,
         draggable: false,
     }); 
+    $(".menuItem").on("click", function () {
+        $('.mobile-menu__checkbox').trigger('click');
+    });
 });
 jQuery(function ($) {
     $(document).ready(function () {
